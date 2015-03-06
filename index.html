@@ -1,5 +1,7 @@
+<img src="README.png" alt="I'm working on archiving all posts here: http://immaterialdigitallabor.net/ DM me if you want to help with this!" />
+<p>Here's a start.</p>
+<h2>List of links</h2>
 <table>
-
 <tr>
   <th>Link</th>
   <th>Posted by</th>
@@ -1964,3 +1966,17 @@ Anne">www.facebook.com</a></td>
   <td><a href="https://www.facebook.com/1463661227181475/posts/1463666520514279">1463666520514279</a></td>
 </tr>
 </table>
+<h2>How to update the list</h2>
+<p>
+  Compile the above list like so. First, install
+  <a href="https://pypi.python.org/pypi/immaterial-digital-labor">immaterial-digital-labor</a>.
+</p>
+<pre><code>pip3 install immaterial-digital-labor</code>
+<p>Then run this.</p>
+<pre><code>immaterial-digital-labor-archive &gt; archive.csv
+immaterial-digital-labor-html &lt; archive.csv &gt; archive.html
+</code></pre>
+<p>
+  The present webpage is <pre><code>archive.html</code></pre> with some
+  extra notes.
+</p>
